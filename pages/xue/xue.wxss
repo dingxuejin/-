@@ -1,0 +1,10 @@
+/* pages/xue/xue.wxss */
+page{
+  background-color: #fff;
+}
+.xue1{
+  height: 450rpx;
+}
+.xue2{
+  height: 260rpx;
+}

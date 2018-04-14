@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/detail/detail",
+    "pages/index/index",
+    "pages/xue/xue",
+    "pages/wenku/wenku",
+    
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "月珠国际家政",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#646464",
+    "selectedColor": "#d4237a",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "关于月珠",
+        "iconPath": "pic/home.png",
+        "selectedIconPath": "pic/home1.png"
+      },
+      {
+        "pagePath": "pages/wenku/wenku",
+        "text": "月珠文库",
+        "iconPath": "pic/wen.png",
+        "selectedIconPath": "pic/wen1.png"
+      },
+      {
+        "pagePath": "pages/xue/xue",
+        "text": "月珠学院",
+        "iconPath": "pic/xue.png",
+        "selectedIconPath": "pic/xue1.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的月珠",
+        "iconPath": "pic/wo.png",
+        "selectedIconPath": "pic/wo1.png"
+      }
+    ]
+  }
+}

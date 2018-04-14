@@ -1,0 +1,57 @@
+<!--pages/wenku/wenku.wxml-->
+
+<view>
+  <view class='wenku0'>
+    <image class='img-full' src="../../img/index.jpg" />
+  </view>
+
+  <scroll-view scroll-x="true" class="tab-h" scroll-left="{{scrollLeft}}">
+    <view class="tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="swichNav">健康健康</view>
+    <view class="tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="swichNav">情感健康</view>
+    <view class="tab-item {{currentTab==2?'active':''}}" data-current="2" bindtap="swichNav">职场健康</view>
+    <view class="tab-item {{currentTab==3?'active':''}}" data-current="3" bindtap="swichNav">育儿健康</view>
+    <view class="tab-item {{currentTab==4?'active':''}}" data-current="4" bindtap="swichNav">育儿健康</view>
+
+  </scroll-view>
+
+
+
+  <view>
+    <view class='flex-between fuwu0'>
+      <view class='fuwu1'>
+        <image class='img-full' src="../../img/index.jpg"></image>
+      </view>
+      <view class='fuwu2'>
+        <view class='fuwu3'>
+          <text>找阿姨</text>
+        </view>
+        <view class='fuwu4 fuwu5'>
+          <text>啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊a啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</text>
+        </view>
+        <view class='flex-end wenku1'>
+          <text>2018/03/15</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- 1 -->
+    <view class='flex-between fuwu0'>
+      <view class='fuwu1'>
+        <image class='img-full' src="../../img/index.jpg"></image>
+      </view>
+      <view class='fuwu2'>
+        <view class='fuwu3'>
+          <text>找阿姨</text>
+        </view>
+        <view class='fuwu4 fuwu5'>
+          <text>啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊a啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</text>
+        </view>
+        <view class='flex-end wenku1'>
+          <text>2018/03/15</text>
+        </view>
+      </view>
+    </view>
+    <!-- end -->
+  </view>
+
+</view>

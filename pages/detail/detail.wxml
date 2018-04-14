@@ -1,0 +1,136 @@
+<!--pages/detail/detail.wxml-->
+<view id='detail'>
+  <view class='detail1'>
+    <image class='img-full detail2' src="../../img/index.jpg"></image>
+  </view>
+  <view class='detail7'>
+    <view class='detail3'>
+      <view class='detail8'>
+        <text class='detail5'>李荣华</text>
+        <text class='detail6'>/</text>
+        <text class='detail6'>家务助理，保姆</text>
+      </view>
+
+    </view>
+    <view class='detail3 flex-start'>
+      <view class='detail4'>
+        <text>工作年限：</text>
+        <text class='detail9'>88</text>
+      </view>
+      <view class='detail4'>
+        <text>身高(厘米)：</text>
+        <text class='detail9'>188</text>
+      </view>
+    </view>
+    <view class='detail3 flex-start'>
+      <view class='detail4'>
+        <text>体重(公斤)：</text>
+        <text class='detail9'>88</text>
+      </view>
+      <view class='detail4'>
+        <text>出生年月：</text>
+        <text class='detail9'>1995/5/5</text>
+      </view>
+    </view>
+    <view class='detail3 flex-start'>
+      <view class='detail4'>
+        <text>食宿：</text>
+        <text class='detail9'>住家</text>
+      </view>
+      <view class='detail4'>
+        <text>籍贯：</text>
+        <text class='detail9'>上海</text>
+      </view>
+    </view>
+    <view class='detail3 flex-start'>
+      <view class='detail4'>
+        <text>生肖：</text>
+        <text class='detail9'>鱼</text>
+      </view>
+      <view class='detail4'>
+        <text>学历：</text>
+        <text class='detail9'>博士</text>
+      </view>
+    </view>
+    <view class='detail3 flex-start'>
+      <view class='detail4'>
+        <text>语言：</text>
+        <text class='detail9'>88</text>
+      </view>
+
+    </view>
+    <view class='detail3 flex-start'>
+      <view class='detail4'>
+        <text>资格证书：</text>
+        <text class='detail9'>身份证, 健康证</text>
+      </view>
+    </view>
+    <view class='detail3 flex-start'>
+      <view class='detail4'>
+        <text>简介：</text>
+        <text class='detail9'>做饭好吃 保洁到位 做事麻利</text>
+      </view>
+    </view>
+  </view>
+  <view class='detail7'>
+    <view class='flex-start experience0'>
+      <view class='experience1'>
+        <image class='img-full' src="../../img/index.jpg"></image>
+        <image class='dxj' src="../../img/dxj.png"></image>
+      </view>
+      <view class='experience2'>
+        <view class='experience3'>
+          <view class='experience4'>
+            <text>工作经历</text>
+          </view>
+          <view class='experience5'>
+            <view>
+              <text>2016年-2017年  上海闸北之星养老院护理老人</text>
+            </view>
+            <view>
+              <text>2016年-2017年  上海闸北之星养老院护理老人</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class='flex-start experience0'>
+      <view class='experience1'>
+        <image class='img-full' src="../../img/index.jpg"></image>
+        <image class='dxj' src="../../img/dxj.png"></image>
+      </view>
+      <view class='experience2'>
+        <view class='experience3'>
+          <view class='experience4'>
+            <text>培训经历</text>
+          </view>
+          <view class='experience5'>
+            <view>
+              <text>月珠国际家政：高级家务助理培训</text>
+            </view>
+          
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class='flex-start experience0'>
+      <view class='experience1'>
+        <image class='img-full' src="../../img/index.jpg"></image>
+        <image class='dxj' src="../../img/dxj.png"></image>
+      </view>
+      <view class='experience2'>
+        <view class='experience3'>
+          <view class='experience4'>
+            <text>推荐理由</text>
+          </view>
+          <view class='experience5'>
+            <view>
+              <text>做饭好吃 保洁到位 做事麻利 干净清爽 眼里有活 不计较 阿姨性格温和 为人真诚 稳定性好，有爱心  吃苦耐劳</text>
+            </view>
+           
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

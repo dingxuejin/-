@@ -1,0 +1,13 @@
+<!--pages/xue/xue.wxml-->
+
+<view>
+  <view class='xue1'>
+    <image class='img-full' src="../../img/index.jpg"></image>
+  </view>
+  <view class='xue2'>
+    <image class='img-full' src="../../img/index.jpg"></image>
+  </view>
+  <view class='xue2'>
+    <image class='img-full' src="../../img/index.jpg"></image>
+  </view>
+</view>

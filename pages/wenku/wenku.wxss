@@ -1,0 +1,98 @@
+/* pages/wenku/wenku.wxss */
+
+page {
+  background-color: #fff;
+}
+
+.tab-h {
+  height: 100rpx;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  line-height: 100rpx;
+  background: #f7f7f7;
+  font-size: 16px;
+  white-space: nowrap;
+  /* position: fixed;
+     top: 0; 
+     left: 0;
+      z-index: 99; */
+}
+
+.tab-item {
+  margin: 0 10rpx;
+  padding:0 20rpx;
+  display: inline-block;
+  text-align: center;
+  min-width: 128rpx;
+}
+
+.active {
+  color: #4675f9;
+  position: relative;
+}
+
+.tab-item.active:after {
+  content: "";
+  display: block;
+  border-radius: 4rpx;
+  height: 8rpx;
+  width: 100%;
+  background: #4675f9;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.scoll-h {
+  height: 100%;
+}
+
+.wenku0 {
+  height: 270rpx;
+}
+
+.fuwu0 {
+  padding: 30rpx 40rpx;
+}
+
+.fuwu1 {
+  margin-right: 40rpx;
+  width: 200rpx;
+  height: 173.3rpx;
+}
+
+.fuwu2 {
+  flex: 1;
+  width: 400rpx;
+}
+
+.fuwu3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.fuwu4 {
+  padding-top: 15rpx;
+  font-size: 14px;
+}
+
+.fuwu5 {
+  max-height: 90rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.wenku1 {
+  padding-top:15rpx;
+  font-size: 12px;
+  color: #92958e;
+}

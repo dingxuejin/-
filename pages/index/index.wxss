@@ -1,0 +1,138 @@
+/**index.wxss**/
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.container {
+  background: #fff;
+}
+
+.swiperImg {
+  width: 100%;
+  height: 100%;
+}
+
+#nav {
+  height: 380rpx;
+  padding: 20rpx;
+  background: #fff;
+}
+
+.nav1 {
+  width: 25%;
+  height: 50%;
+  position: relative;
+}
+
+.nav2, .nav3 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.nav2 {
+  border-radius: 50%;
+  width: 100rpx;
+  height: 100rpx;
+  top: 30rpx;
+  overflow: hidden;
+}
+
+.nav3 {
+  bottom: 0;
+  text-align: center;
+}
+
+.nav3>text {
+  font-size: 14px;
+}
+
+#ad {
+  height: 240rpx;
+}
+
+#caption {
+  height: 80rpx;
+  line-height: 80rpx;
+  margin: 20rpx auto 0px;
+  border-top: 5rpx solid #efece6;
+}
+
+.caption {
+  margin: 0 20rpx;
+  border-top: 5rpx solid #efece6;
+}
+
+.caption-icon {
+  width: 10rpx;
+  height: 40rpx;
+  background: #ff2d69;
+  margin: 20rpx;
+}
+
+.caption-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.fuwu0 {
+  padding:  30rpx 40rpx;
+}
+
+.fuwu1 {
+  margin-right: 40rpx;
+  width: 190rpx;
+  height: 190rpx;
+}
+
+.fuwu2 {
+  flex: 1;
+  width: 400rpx;
+}
+
+.fuwu3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.fuwu4 {
+  padding-top: 15rpx;
+  font-size: 14px;
+  color: #92958e;
+}
+
+.fuwu5 {
+  max-height: 90rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.fuwu6 {
+  margin-right: 40rpx;
+  width: 150rpx;
+  height: 130rpx;
+}

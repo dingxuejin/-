@@ -1,0 +1,163 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view> -->
+  <swiper style='height:350rpx;' indicator-dots='true' autoplay='true' circular='true' interval='3000' indicator-color='#fff' indicator-active-color="#999">
+    <!-- <block wx:for="{{imgUrls}}"> -->
+    <swiper-item>
+      <image class='swiperImg' src="../../img/index.jpg" />
+    </swiper-item>
+    <swiper-item>
+      <image class='swiperImg' src="../../img/index.jpg" />
+    </swiper-item>
+    <swiper-item>
+      <image class='swiperImg' src="../../img/index.jpg" />
+    </swiper-item>
+    <!-- </block> -->
+  </swiper>
+  <view id='nav' class='flex-between '>
+    <view class='nav1'>
+      <view class='nav2'>
+        <image class='img-full  ' src="../../img/index.jpg"></image>
+      </view>
+      <view class='nav3'>
+        <text>月租简介</text>
+      </view>
+    </view>
+    <view class='nav1'>
+      <view class='nav2'>
+        <image class='img-full  ' src="../../img/index.jpg"></image>
+      </view>
+      <view class='nav3'>
+        <text>月租简介</text>
+      </view>
+    </view>
+    <view class='nav1'>
+      <view class='nav2'>
+        <image class='img-full  ' src="../../img/index.jpg"></image>
+      </view>
+      <view class='nav3'>
+        <text>月租简介</text>
+      </view>
+    </view>
+    <view class='nav1'>
+      <view class='nav2'>
+        <image class='img-full  ' src="../../img/index.jpg"></image>
+      </view>
+      <view class='nav3'>
+        <text>月租简介</text>
+      </view>
+    </view>
+    <view class='nav1'>
+      <view class='nav2'>
+        <image class='img-full  ' src="../../img/index.jpg"></image>
+      </view>
+      <view class='nav3'>
+        <text>月租简介</text>
+      </view>
+    </view>
+    <view class='nav1'>
+      <view class='nav2'>
+        <image class='img-full  ' src="../../img/index.jpg"></image>
+      </view>
+      <view class='nav3'>
+        <text>月租简介</text>
+      </view>
+    </view>
+    <view class='nav1'>
+      <view class='nav2'>
+        <image class='img-full  ' src="../../img/index.jpg"></image>
+      </view>
+      <view class='nav3'>
+        <text>月租简介</text>
+      </view>
+    </view>
+    <view class='nav1'>
+      <view class='nav2'>
+        <image class='img-full  ' src="../../img/index.jpg"></image>
+      </view>
+      <view class='nav3'>
+        <text>月租简介</text>
+      </view>
+    </view>
+  </view>
+  <view id='ad'>
+    <image class='img-full  ' src="../../img/index.jpg"></image>
+  </view>
+  <view id='caption' class='flex-start'>
+    <view class='caption-icon'></view>
+    <view class='caption-title'>
+      <text>四位一体服务</text>
+    </view>
+  </view>
+  <view class='caption'></view>
+  <view class='flex-between fuwu0'>
+    <view class='fuwu1'>
+      <image class='img-full' src="../../img/index.jpg"></image>
+    </view>
+    <view class='fuwu2'>
+      <view class='fuwu3'>
+        <text>啊啊啊啊啊</text>
+      </view>
+      <view class='fuwu4'>
+        <text>啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊a啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</text>
+      </view>
+    </view>
+  </view>
+  <view class='flex-between fuwu0'>
+
+    <view class='fuwu2'>
+      <view class='fuwu3'>
+        <text>啊啊啊啊啊</text>
+      </view>
+      <view class='fuwu4'>
+        <text>啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊a啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</text>
+      </view>
+    </view>
+    <view class='fuwu1'>
+      <image class='img-full' src="../../img/index.jpg"></image>
+    </view>
+  </view>
+  <view id='caption' class='flex-start'>
+    <view class='caption-icon'></view>
+    <view class='caption-title'>
+      <text>最新文章</text>
+    </view>
+  </view>
+  <view class='caption'></view>
+  <view class='flex-between fuwu0'>
+    <view class='fuwu6'>
+      <image class='img-full' src="../../img/index.jpg"></image>
+    </view>
+    <view class='fuwu2'>
+      <view class='fuwu3'>
+        <text>找阿姨aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</text>
+      </view>
+      <view class='fuwu4 fuwu5'>
+        <text>啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊a啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</text>
+      </view>
+    </view>
+  </view>
+  <view class='flex-between fuwu0'>
+
+    <view class='fuwu2'>
+      <view class='fuwu3'>
+        <text>啊啊啊啊啊</text>
+      </view>
+      <view class='fuwu4 fuwu5'>
+        <text>啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊a啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</text>
+      </view>
+    </view>
+    <view class='fuwu6'>
+      <image class='img-full' src="../../img/index.jpg"></image>
+    </view>
+  </view>
+</view>
